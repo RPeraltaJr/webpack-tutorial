@@ -7,3 +7,5 @@
 ## Setup your code and then run Webpack
 `webpack assets/js/main.js assets/js/bundle.js`
 ###### Use only [bundle.js] on your [index.html] file
+
+## Create a Webpack.config.js file
