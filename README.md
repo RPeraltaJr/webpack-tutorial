@@ -9,3 +9,8 @@
 ###### Use only [bundle.js] on your [index.html] file
 
 ## Create a Webpack.config.js file
+
+## Using Babel Loader
+* Install babel-core and babel-loader via npm
+* Install any presets we will be using to perform transformations
+* Configure webpack.config to tell webpack to use babel to transform our code
