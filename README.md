@@ -16,3 +16,10 @@
 * Install any presets we will be using to perform transformations
 * Configure webpack.config to tell webpack to use babel to transform our code
 
+## Using CSS Loaders
+* Use CSS loaders to load in only the styles we need, into different parts of our application
+`npm install style-loader css-loader --save-dev`
+* CSS becomes much more modular and easier to manage
+* 2 different loader - css-loader, style-loader
+* CSS-loader, loads the css into our JS file
+* Style-loader adds our css into the DOM
