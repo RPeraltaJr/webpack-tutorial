@@ -20,8 +20,8 @@ module.exports = {
                 }
             },
             {
-                test: /\.css$/, // run on css files
-                loader: 'style-loader!css-loader'
+                test: /\.scss$/, // run on css files
+                loader: 'style-loader!css-loader!sass-loader'
             }
         ]
     }

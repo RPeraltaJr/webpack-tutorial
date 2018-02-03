@@ -23,3 +23,6 @@
 * 2 different loader - css-loader, style-loader
 * CSS-loader, loads the css into our JS file
 * Style-loader adds our css into the DOM
+
+## SASS Loaders
+`npm install node-sass sass-loader --save-dev`

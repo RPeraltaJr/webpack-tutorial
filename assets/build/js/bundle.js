@@ -109,8 +109,8 @@ var update = __webpack_require__(5)(content, options);
 if(content.locals) module.exports = content.locals;
 
 if(false) {
-	module.hot.accept("!!../../../node_modules/css-loader/index.js!./introComponent.css", function() {
-		var newContent = require("!!../../../node_modules/css-loader/index.js!./introComponent.css");
+	module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/sass-loader/lib/loader.js!./introComponent.scss", function() {
+		var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/sass-loader/lib/loader.js!./introComponent.scss");
 
 		if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 
@@ -144,7 +144,7 @@ exports = module.exports = __webpack_require__(4)(false);
 
 
 // module
-exports.push([module.i, ".intro-component {\n    padding: 20px;\n    background: maroon;\n    color: white; \n    font-family: Arial, sans-serif;\n}", ""]);
+exports.push([module.i, ".intro-component {\n  padding: 20px;\n  background: #7777bb;\n  color: white;\n  font-family: Arial, sans-serif; }\n  .intro-component h1 {\n    text-transform: uppercase; }\n", ""]);
 
 // exports
 
