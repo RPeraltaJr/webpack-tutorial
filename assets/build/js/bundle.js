@@ -67,25 +67,23 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
+"use strict";
+
+
 var message = __webpack_require__(1); // './' if same directory as (this file) main.js
 
 alert(message);
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-// var message = "Hello world!";
-module.exports = "Hello world!";
+"use strict";
 
-/* -- Exporting Multiple Functions -- 
 
-module.exports = {
-    method: function() {},
-    otherMethod: function() {}
-}
+var msg = "tempus fugits";
 
---------------------------------- */
+module.exports = msg;
 
 /***/ })
 /******/ ]);

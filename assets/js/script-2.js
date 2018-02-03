@@ -1,11 +1,3 @@
-// var message = "Hello world!";
-module.exports = "Hello world!";
+const msg = "tempus fugits";
 
-/* -- Exporting Multiple Functions -- 
-
-module.exports = {
-    method: function() {},
-    otherMethod: function() {}
-}
-
---------------------------------- */
+module.exports = msg;

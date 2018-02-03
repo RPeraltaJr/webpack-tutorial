@@ -12,5 +12,7 @@
 
 ## Using Babel Loader
 * Install babel-core and babel-loader via npm
+`npm install babel-core babel-loader babel-preset-es2015 --save-dev`
 * Install any presets we will be using to perform transformations
 * Configure webpack.config to tell webpack to use babel to transform our code
+
